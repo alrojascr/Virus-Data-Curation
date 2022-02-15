@@ -7,14 +7,14 @@ Suite of tools for filtering, processing and matching viral sequences retrieved 
 
 | Program                    | Description                                                                                                    |
 |:-------------------------  |:-------------------------------------------------------------------------------------------------------------- |
-|fa-curator                  | This program filters each viral sequence retaining the unambiguous                                             |                      |                            | nucleotides: `A, C, G, T` and, parallelly, compares them across different databases to remove those showing    |                      |                            | 100% similarity and return a single sequence for constituting a non-redundant dataset.                         |
-|fa-cleaner                  | This tool is suitable for removing viral sequences from a dataset through the length and `N` percentage of     |
-|                            | sequences to be filtered.                                                                                      |
-|fa-extract                  | The purpose of this program is to extract sequences in a fasta file depending on keywords included in the      |
-|                            | header. The keyword string can be partial or complete.                                                         |
+|fa-curator                  | This program filters each viral sequence retaining the unambiguous                                                                                                  nucleotides: `A, C, G, T` and, parallelly, compares them across different databases to remove those showing                                                          100% similarity and return a single sequence for constituting a non-redundant dataset.                         |
+|fa-cleaner                  | This tool is suitable for removing viral sequences from a dataset through the length and `N` percentage of     
+                               sequences to be filtered.                                                                                      |
+|fa-extract                  | The purpose of this program is to extract sequences in a fasta file depending on keywords included in the      
+                               header. The keyword string can be partial or complete.                                                         |
 |fa-rename                   | A very useful script to rename sequence headers in a fasta file.                                               |
-|fa-stats                    | This is a program for sorting sequences from the shortest or vice versa, listing length for each sequence      |
-|                            | and overall average of the entire dataset through multiple fasta files.                                        |
+|fa-stats                    | This is a program for sorting sequences from the shortest or vice versa, listing length for each sequence      
+                               and overall average of the entire dataset through multiple fasta files.                                        |
 |fa-ungap                    | This is a script converts a multiple sequence alignment to a fasta format file, removing all gaps.             |
 
 
